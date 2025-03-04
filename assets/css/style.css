@@ -3,19 +3,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 :root {
-    --main-color: #ffab40;
-    --text-color:#ffffff;
-    --bg-color-01: #1f242d;
-    --bg-color-02: #323946;
-    --color-oo: #0000001a;
+    --main-color: #ff2600; /* Verde Neon (diferente, moderno e destaca o nome) */
+    --text-color: #e5e5e5; /* Cinza claro para texto, suave e legível */
+    --bg-color-01: #121212; /* Preto fosco (Dark mode classe) */
+    --bg-color-02: #1e1e1e; /* Cinza carvão (dá profundidade nas seções) */
+    --color-oo: #ffffff1a; /* Transparência leve para efeitos */
 
-    /* Extra */
-    --color-01: #999999;
-    --color-02: #009539;
-    --color-03: #7950f2;
-    --color-04: #c00000;
-    --color-05: #232323;
+    /* Extras (detalhes) */
+    --color-01: #555555; /* Cinza neutro (subtítulos, bordas suaves) */
+    --color-02: #00c853; /* Verde petróleo (botões e destaques) */
+    --color-03: #9b51e0; /* Roxo elétrico (hover e detalhes modernos) */
+    --color-04: #d63031; /* Vermelho carmesim (alertas ou detalhes agressivos) */
+    --color-05: #242424; /* Preto mais suave (cards e backgrounds) */
 }
+
 
 
 * {
@@ -123,6 +124,7 @@ span{
 }
 
 .home-content p, .about-content p{
+    font-size: 20px;
     margin-top: 1.2rem;
     text-align: justify;
 }
